@@ -27,6 +27,10 @@
     >
       
 	    
+	     <a-assets> 
+        <img id="asset" src="https://raw.githubusercontent.com/mayognaise/aframe-gif-shader/master/examples/basic/banana.gif">
+      </a-assets>
+	    
 	    <a-entity gltf-model="./assets/bluebirdladyscene2.gltf"
                    rotation="0 0 0"
                     scale="2 2 2"
@@ -49,7 +53,7 @@
       position="0 0 0"
       rotation="-90 0 0"
       scale="0.5 0.5 0.5"
-      material="shader:gif;src:#./assets/big.gif;alphaTest:0.5;"></a-entity>
+      material="shader:gif;src:#asset;alphaTest:0.5;"></a-entity>
 	    
 	    
 	    <a-text
